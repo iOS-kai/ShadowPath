@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "http://icodesign.me"
   s.license      = "GPLv2"
+  s.source = { :path => '.' }
   s.author        = { "iCodesign" => "leimagnet@gmail.com" }
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
